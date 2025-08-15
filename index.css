@@ -97,4 +97,5 @@ button:hover, button:focus{
     background-color: var(--Green-clr);
     color: var(--Grey-clr-800);
     transition: background-color .5s ease;
+    cursor: pointer;
 }
