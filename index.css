@@ -90,12 +90,12 @@ button{
     font-family: var(--primary-semi);
     border: 0;
     outline: 0;
-    border-radius: 8px;
+    border-radius: 9px;
 }
 
 button:hover, button:focus{
     background-color: var(--Green-clr);
     color: var(--Grey-clr-800);
     transition: background-color .5s ease;
-    cursor: pointer;
+    cursor:pointer;
 }
