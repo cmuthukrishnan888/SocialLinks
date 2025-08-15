@@ -81,16 +81,20 @@ h1+p{
     row-gap: 20px;
 }
 
-.social-links button{
-    padding: 15px calc(325px - 14.5rem);
-    border-radius: 10px;
-    outline: none;
-    border: none;
+
+button{
+    width: 100%;
+    padding: 12px 100px;
     background-color: var(--Grey-clr-700);
+    color: var(--txt-clr);
+    font-family: var(--primary-semi);
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
 }
 
-a{
-    text-decoration: none;
-    color: var(--txt-clr);
-    font-family: var(--primary-bold);
+button:hover, button:focus{
+    background-color: var(--Green-clr);
+    color: var(--Grey-clr-800);
+    transition: background-color .5s ease;
 }
